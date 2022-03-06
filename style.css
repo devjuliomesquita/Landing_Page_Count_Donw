@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.conteiner{
+    display: flex;   
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 7%;
+    background: #eee;
+    min-height: 100vh;
+    gap: 15px;
+    padding-bottom: 80px;
+}
+.conteiner .content{
+    flex: 1 1 400px;
+}
+.conteiner .image{
+    flex: 1 1 400px;
+    width: 100%;
+}
+.conteiner .content .title{
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #2980b9;
+}
+.conteiner .content p{
+    color: #666;
+    padding: 5px 0;
+}
+.conteiner .content .count_down{
+    display: flex;
+    gap: 15px;
+    padding: 10px 0;
+}
+.conteiner .content .count_down .box{
+    padding: 5px;
+    background: #fff;
+    border: 1px solid #3333;
+    text-align: center;
+    flex: 1 1 20px;
+}
+.conteiner .content .count_down .box h3{
+    font-size: 50px;
+    color: #333;
+}
+.conteiner .content .count_down .box span{
+    color: #2980b9;
+    font-size: 20px;
+    padding: 20px 0;
+}
+.conteiner .content .btn{
+    display: inline-block;
+    padding: 8px 50px;
+    margin: 10px 0;
+    font-size: 19px;
+    background: #2980b9;
+    color: #fff;
+    transition: .2s ease-out;
+}
