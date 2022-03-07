@@ -66,3 +66,29 @@
     color: #fff;
     transition: .2s ease-out;
 }
+
+
+
+@media(max-width:500px){
+    .conteiner{
+        padding: 20px;
+    }
+    .conteiner .content{
+        text-align: center;
+    }
+    .conteiner .content .title{
+        font-size: 35px;
+    }
+    .conteiner .content p{
+        font-size: 14px;
+    }
+    .conteiner .content .count_down{
+        gap: 5px;
+    }
+    .conteiner .content .count_down .box h3{
+        font-size: 30px;
+    }
+    .conteiner .content .count_down .box span{
+        font-size: 15px;
+    }
+}
